@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[-----------Suite started-----------]]>
+    </line>
+    <line>
+      <![CDATA[Test started :: test]]>
+    </line>
+    <line>
+      <![CDATA[Test success :: test]]>
+    </line>
+  </reporter-output>
+  <suite name="smokeTests" duration-ms="29875" started-at="2020-05-15T23:31:10 IST" finished-at="2020-05-15T23:31:40 IST">
+    <groups>
+    </groups>
+    <test name="StepInForum" duration-ms="29875" started-at="2020-05-15T23:31:10 IST" finished-at="2020-05-15T23:31:40 IST">
+      <class name="tests.TestIS">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:tests.TestIS@27a8c74e]" name="suiteSetUp" is-config="true" duration-ms="24" started-at="2020-05-15T23:31:10 IST" finished-at="2020-05-15T23:31:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TestIS@27a8c74e]" name="beforeClass" is-config="true" duration-ms="13537" started-at="2020-05-15T23:31:10 IST" finished-at="2020-05-15T23:31:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.TestIS@27a8c74e]" name="test" duration-ms="7651" started-at="2020-05-15T23:31:23 IST" finished-at="2020-05-15T23:31:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test started :: test]]>
+            </line>
+            <line>
+              <![CDATA[Test success :: test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="takeScreenShotOnFaiStepInForum_FB_DesktopWeblure(org.testng.ITestResult)[pri:0, instance:tests.TestIS@27a8c74e]" name="takeScreenShotOnFaiStepInForum_FB_DesktopWeblure" is-config="true" duration-ms="8086" started-at="2020-05-15T23:31:31 IST" finished-at="2020-05-15T23:31:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=TestIS.test()[pri:0, instance:tests.TestIS@27a8c74e] output=Test started :: test]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFaiStepInForum_FB_DesktopWeblure -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TestIS@27a8c74e]" name="afterClass" is-config="true" duration-ms="540" started-at="2020-05-15T23:31:39 IST" finished-at="2020-05-15T23:31:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TestIS -->
+    </test> <!-- StepInForum -->
+  </suite> <!-- smokeTests -->
+</testng-results>

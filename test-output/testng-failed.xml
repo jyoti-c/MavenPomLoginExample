@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [smokeTests]" parallel="instances">
+  <listeners>
+    <listener class-name="core.TestNGListenerAdapter"/>
+  </listeners>
+  <test thread-count="20" name="StepInForum(failed)" parallel="instances">
+    <classes>
+      <class name="tests.TestIS">
+        <methods>
+          <include name="test"/>
+          <include name="afterClass"/>
+          <include name="takeScreenShotOnFaiStepInForum_FB_DesktopWeblure"/>
+          <include name="suiteSetUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.TestIS -->
+    </classes>
+  </test> <!-- StepInForum(failed) -->
+</suite> <!-- Failed suite [smokeTests] -->
