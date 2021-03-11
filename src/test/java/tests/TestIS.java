@@ -16,8 +16,8 @@ public class TestIS extends BaseTest{
 	public void test() throws Exception {
 		
 		gmail = new GmailPage(driver);
-		gmail.enterEmail("bikkialtjkc@gmail.com");
-		gmail.enterPassword("BikkialtJKC8");
+		gmail.enterEmail("email");
+		gmail.enterPassword("password");
 		Thread.sleep(5000);
 	}
 
